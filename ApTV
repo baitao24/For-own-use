@@ -1,7 +1,18 @@
 /******************************
 
 脚本功能：APTV - 解锁订阅
+
 软件版本：1.0.16
+
+*******************************
+
+[rewrite_local]
+
+https://api.revenuecat.com/v1/(receipts|subscribers)/* url script-response-body https://raw.githubusercontent.com/baitao24/For-own-use/master/ApTV
+
+[mitm] 
+
+hostname = api.revenuecat.com
 
 *******************************/
 
